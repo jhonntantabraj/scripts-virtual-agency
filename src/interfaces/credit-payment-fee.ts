@@ -1,10 +1,12 @@
 export interface ICreditPaymentFee {
+    creditPaymentFeeId: string;
     creditId: number;
     amount: number;
     expirationDate: {
         expirationDay: number;
         expirationMonth: number;
+        expirationYear: number;
     };
-    statusPayment: string;
+    statusFeeId: number;
     createdAt?: Date;
 }

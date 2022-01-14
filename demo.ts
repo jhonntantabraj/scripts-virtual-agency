@@ -5,3 +5,7 @@ function randomIntFromInterval(min: number, max: number) {
 
 const rndInt = randomIntFromInterval(900000000, 999999999);
 console.log(rndInt);
+
+const num = 1234214.2342;
+const result = num - 12344;
+result;

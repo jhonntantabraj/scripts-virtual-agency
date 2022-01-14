@@ -1,4 +1,5 @@
 export interface ICustomer {
+    customerId: string;
     name?: string | null;
     customerCode: number;
     lastName?: string | null;
@@ -7,6 +8,6 @@ export interface ICustomer {
     documentNumber: number;
     email: string;
     phone: number;
-    gender: string;
+    gender?: string | null;
     agency: string;
 }

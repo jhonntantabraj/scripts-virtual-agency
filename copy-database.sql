@@ -24,6 +24,7 @@ CREATE TABLE [db_virtualagency].[Credits] (
   [Currency] varchar(20) NOT NULL,
   [InterestRate] decimal(5,2) NOT NULL,
   [Period] int NOT NULL,
+  [Balance] decimal(18,2) NOT NULL,
   [StartDate] datetime,
   [EndDate] datetime,
   [Status] varchar(30) NOT NULL,

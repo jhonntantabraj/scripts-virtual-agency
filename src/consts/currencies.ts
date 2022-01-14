@@ -1,1 +1,1 @@
-export const CURRENCIES: string[] = ['Dólares', 'Soles'];
+export const CURRENCIES: string[] = ['Soles', 'Dólares'];
